@@ -13,6 +13,7 @@
 		9B0FCA6A1D61300F00E222F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0FCA691D61300F00E222F3 /* Assets.xcassets */; };
 		9B0FCA6D1D61300F00E222F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0FCA6B1D61300F00E222F3 /* LaunchScreen.storyboard */; };
 		9B61D3D51D8471B3005C6769 /* DealFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61D3D41D8471B3005C6769 /* DealFormController.swift */; };
+		9B61D3D81D8604D2005C6769 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B61D3D71D8604D2005C6769 /* Deal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B0FCA6C1D61300F00E222F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0FCA6E1D61300F00E222F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B61D3D41D8471B3005C6769 /* DealFormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealFormController.swift; sourceTree = "<group>"; };
+		9B61D3D71D8604D2005C6769 /* Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9B0FCA5E1D61300F00E222F3 /* RentalCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				9B61D3D61D8604BD005C6769 /* Models */,
 				9B0FCA5F1D61300F00E222F3 /* AppDelegate.swift */,
 				9B61D3D41D8471B3005C6769 /* DealFormController.swift */,
 				9B0FCA631D61300F00E222F3 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				9B0FCA661D61300F00E222F3 /* RentalCalculator.xcdatamodeld */,
 			);
 			path = RentalCalculator;
+			sourceTree = "<group>";
+		};
+		9B61D3D61D8604BD005C6769 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B61D3D71D8604D2005C6769 /* Deal.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				9B61D3D51D8471B3005C6769 /* DealFormController.swift in Sources */,
 				9B0FCA681D61300F00E222F3 /* RentalCalculator.xcdatamodeld in Sources */,
 				9B0FCA601D61300F00E222F3 /* AppDelegate.swift in Sources */,
+				9B61D3D81D8604D2005C6769 /* Deal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
